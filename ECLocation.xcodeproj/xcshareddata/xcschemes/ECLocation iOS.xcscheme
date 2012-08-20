@@ -71,23 +71,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2251BA1115DBCC4A00F2FE40"
-               BuildableName = "ECText.framework"
-               BlueprintName = "ECTextIOS"
-               ReferencedContainer = "container:ECText.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECTextIOSTests.octest"
-               BlueprintName = "ECTextIOSTests"
-               ReferencedContainer = "container:ECText.xcodeproj">
+               BuildableName = "ECLocation.framework"
+               BlueprintName = "ECLocationIOS"
+               ReferencedContainer = "container:ECLocation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -103,9 +89,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECTextIOSTests.octest"
-               BlueprintName = "ECTextIOSTests"
-               ReferencedContainer = "container:ECText.xcodeproj">
+               BuildableName = "ECLocationIOSTests.octest"
+               BlueprintName = "ECLocationIOSTests"
+               ReferencedContainer = "container:ECLocation.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
