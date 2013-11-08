@@ -89,7 +89,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECLocationIOSTests.octest"
+               BuildableName = "ECLocationIOSTests.xctest"
                BlueprintName = "ECLocationIOSTests"
                ReferencedContainer = "container:ECLocation.xcodeproj">
             </BuildableReference>
