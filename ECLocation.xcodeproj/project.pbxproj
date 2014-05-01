@@ -59,9 +59,9 @@
 		2251BA5E15DBD68500F2FE40 /* MacUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestDebug.xcconfig; sourceTree = "<group>"; };
 		2251BA5F15DBD68500F2FE40 /* MacUnitTestRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestRelease.xcconfig; sourceTree = "<group>"; };
 		2251BA6C15DBDA5100F2FE40 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		225EC67211EBAA4800A97AEA /* ECLocationMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECLocationMacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		225EC67211EBAA4800A97AEA /* ECLocationMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECLocationMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2274B37814F56679003B8A0B /* ECLocationTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ECLocationTests.plist; sourceTree = "<group>"; };
-		2274B38D14F56896003B8A0B /* ECLocationIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECLocationIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2274B38D14F56896003B8A0B /* ECLocationIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECLocationIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2283A4CB14F53C6F009142F7 /* ECLocationShared.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLocationShared.pch; sourceTree = "<group>"; };
 		229628E117627C2B008D887F /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECUnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		229628E617627DDC008D887F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,8 +112,8 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				225EC67211EBAA4800A97AEA /* ECLocationMacTests.octest */,
-				2274B38D14F56896003B8A0B /* ECLocationIOSTests.octest */,
+				225EC67211EBAA4800A97AEA /* ECLocationMacTests.xctest */,
+				2274B38D14F56896003B8A0B /* ECLocationIOSTests.xctest */,
 				2251B9FF15DBCC3E00F2FE40 /* ECLocation.framework */,
 				2251BA1215DBCC4A00F2FE40 /* ECLocation.framework */,
 			);
@@ -301,7 +301,7 @@
 			);
 			name = ECLocationMacTests;
 			productName = "EC Foundation Unit Tests";
-			productReference = 225EC67211EBAA4800A97AEA /* ECLocationMacTests.octest */;
+			productReference = 225EC67211EBAA4800A97AEA /* ECLocationMacTests.xctest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		2274B38C14F56896003B8A0B /* ECLocationIOSTests */ = {
@@ -319,7 +319,7 @@
 			);
 			name = ECLocationIOSTests;
 			productName = blahTests;
-			productReference = 2274B38D14F56896003B8A0B /* ECLocationIOSTests.octest */;
+			productReference = 2274B38D14F56896003B8A0B /* ECLocationIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
